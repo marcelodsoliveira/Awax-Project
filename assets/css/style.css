@@ -736,3 +736,89 @@ CSS de áreas específicas
   width: 15px;
   height: auto;
 }
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #000000;
+}
+
+.footer_contents {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.footer_content {
+  flex: 1;
+  color: #FFFFFF;
+}
+
+.footer_social_media {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.footer_social_media div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background-color: #333;
+  margin-left: 8px;
+}
+
+.footer_social_media div a:hover {
+  background-color: #B28756;
+}
+
+footer h4 {
+  margin-top: 150px;
+  margin-left: 8px;
+}
+
+.footer_descrip h5 {
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer_subscribe {
+  margin-left: 25px;
+  background-color: #333;
+  width: 350px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.footer_subscribe form {
+  padding: 50px;
+}
+
+.footer_subscribe input[type=email] {
+  display:block;
+  width:80%;
+  height:40px;
+  border:0;
+  background:transparent;
+  border-bottom:1px solid #CCC;
+  outline:0;
+  margin: auto;
+  text-align: center;
+}
+
+.footer_subscribe input::placeholder {
+  color: #CCC;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.footer_subscribe input[type=submit] {
+  border: 0;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
